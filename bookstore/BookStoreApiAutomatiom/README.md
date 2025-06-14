@@ -13,15 +13,14 @@ This project automates REST API testing for a BookStore application using Java, 
 | TestNG   | Latest  | Test execution and suite configuration |
 | Cucumber | 7.x     | BDD (Behavior-Driven Development)      |
 | RestAssured | 5.4.0   | Simplified API testing using Java |
-| Allure Reports | 2.24.0  | Generate beautiful test reports |
+| Cucumber Reports | 6.7.0  | Generate beautiful test reports |
 
-##   Why **Allure** reports
+##   Why **Cucumber** reports
 
 -  API Testing (RestAssured) → Shows cURL requests & responses.
 
--  Failures in CI → Easy drill-down with screenshots & logs.
-
--  Large Test Suites → Grouping, filtering, defect mapping.
+-  ucumber uses reporter plugins to produce reports that contain information about
+-  what scenarios have passed or failed. Some plugins are built-in, others have to be installed separately.
 
 -  Test Metrics Reporting → Trends, duration, flaky detection.
 
