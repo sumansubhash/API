@@ -38,8 +38,6 @@ This project automates REST API testing for a BookStore application using Java, 
 
 - Java 21 installed and added to PATH
 - Maven installed and added to PATH
-- [Allure Commandline](https://docs.qameta.io/allure/#_installing_a_commandline) (Optional for local report viewing)
-
 ---
 
 ##  How to set up and  Run Tests
