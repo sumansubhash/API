@@ -17,10 +17,11 @@ This project automates REST API testing for a BookStore application using Java, 
 
 ##   Why **Cucumber** reports
 
--  API Testing (RestAssured) → Shows cURL requests & responses.
+Cucumber uses reporter plugins to produce reports that contain information about what scenarios have passed or failed.
 
--  ucumber uses reporter plugins to produce reports that contain information about
--  what scenarios have passed or failed. Some plugins are built-in, others have to be installed separately.
+Some plugins are built-in, others have to be installed separately. You can also build your own.
+
+This page documents built-in formatter plugins, custom formatters and some common third-party plugins. Available plugins may vary per programming language.
 
 
 ##  Why **TestNG** is a better fit because:
