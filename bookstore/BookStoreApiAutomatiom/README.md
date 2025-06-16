@@ -26,8 +26,6 @@ This page documents built-in formatter plugins, custom formatters and some commo
 
 ##  Why **TestNG** is a better fit because:
 
-- Allure integrates more robustly.
-
 - TestNG + Cucumber gives better control over test grouping, parallelism, and execution flow.
 
 - You'll benefit from TestNG’s native support for dependencies, retries, and configuration.
