@@ -8,7 +8,7 @@ This project automates REST API testing for a BookStore application using Java, 
 
 | Component | Version | Purpose                   |
 | --------- | ------- | ------------------------- |
-| Java      | 21      | Core programming language |
+| Java      | 20      | Core programming language |
 | Maven | Latest (compatible with Java 21) | Project build lifecycle & dependency management |
 | TestNG   | Latest  | Test execution and suite configuration |
 | Cucumber | 7.x     | BDD (Behavior-Driven Development)      |
@@ -22,7 +22,6 @@ This project automates REST API testing for a BookStore application using Java, 
 -  ucumber uses reporter plugins to produce reports that contain information about
 -  what scenarios have passed or failed. Some plugins are built-in, others have to be installed separately.
 
--  Test Metrics Reporting → Trends, duration, flaky detection.
 
 ##  Why **TestNG** is a better fit because:
 
@@ -36,7 +35,7 @@ This project automates REST API testing for a BookStore application using Java, 
 
 ##  Prerequisites
 
-- Java 21 installed and added to PATH
+- Java 20 installed and added to PATH
 - Maven installed and added to PATH
 ---
 
@@ -68,7 +67,7 @@ Ngrok (for development purpose)
 
 ## **STEPS To be followed for CI/CD:** ( for development purpose - testing env)
 
-1) Need to add jenkinsFile in Dev repo - which is to build dev code and trigger QA automation
+1) Need to add jenkinsFile in Dev repo - which is to build dev code and trigger QA automation (for reference https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
 
 <pre lang="groovy"><code>pipeline { agent any stages { stage('Build Dev') { steps { echo 'Build or test dev code here' } } stage('Trigger QA Automation') { steps { build job: 'QA-Repo' } } } } </code></pre>
 
