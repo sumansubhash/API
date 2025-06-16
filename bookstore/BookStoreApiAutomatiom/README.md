@@ -9,7 +9,7 @@ This project automates REST API testing for a BookStore application using Java, 
 | Component | Version | Purpose                   |
 | --------- | ------- | ------------------------- |
 | Java      | 20      | Core programming language |
-| Maven | Latest (compatible with Java 21) | Project build lifecycle & dependency management |
+| Maven | Latest (compatible with Java 20) | Project build lifecycle & dependency management |
 | TestNG   | Latest  | Test execution and suite configuration |
 | Cucumber | 7.x     | BDD (Behavior-Driven Development)      |
 | RestAssured | 5.4.0   | Simplified API testing using Java |
